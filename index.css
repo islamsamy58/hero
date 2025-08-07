@@ -131,7 +131,7 @@ header .web nav .menu-links li .active{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 3rem;
 }
 .piic1{
     width: 38%;
