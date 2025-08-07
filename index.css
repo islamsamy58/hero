@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contact{
+    width: 100%;
+    height: 10vh;
+    background-color: #658161;
+    display: flex;
+    
+
+}
+.contact .contact1{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 150.500px 7px 351.500px;
+    
+     a{
+        font-weight: 700;
+        color: white;
+     }
+     i{
+        width: 20px;
+        height: 20px;
+        color: white; 
+     }
+}
+.contact .contact2{
+    width:25%;
+    height: 100%;
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    a{
+        color: white;
+     }
+     i{
+        color: white;
+        font-size: 25px;
+     }
+}
+.web{
+    padding: 15px 150.500px;
+}
+header{
+    width: 100%;
+    height: 12vh;
+}
+header .web{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .web .logo{
+    width: 154px;
+
+}
+header .web .logo img{
+    width: 100%;
+    height: 61px;
+
+}
+header .web nav .menu-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+header .web nav .menu-links li a{
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: .3s ease-in;
+}
+header .web nav .menu-links li a:hover{
+    
+    border-color:  #b6ccb2;
+}
+header .web nav .menu-links li .active{
+    
+    border-bottom: 2px solid  #b6ccb2;
+}
+.pic{
+    width: 100%;
+    height: 450px;
+    background-image: url(./assits/female-hands-holding-bowl-vegan-salad-with-fresh-vegetables-top-view6-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #00000040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.para{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.piic{
+    width: 100%;
+    height: 190vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.piic1{
+    width: 38%;
+    height: 50%;
+    gap: 2rem;
+    
+    img{
+        width: 100%;
+        height: 339px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 1.125rem;
+        line-height: 1.6;
+        font-weight: 450;
+    }
+    button{
+        width: 160px;
+        height: 50px;
+        border-radius: 10px;
+        font-weight: 700;
+        border-color: #b6ccb2;
+        
+    }
+    a{
+        color: #658161;
+    }
+}
+
+.piic2{
+    width: 38%;
+    height: 50%;
+    img{
+        width: 100%;
+        height: 339px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 1.125rem;
+        line-height: 1.6;
+        font-weight: 450;
+    }
+    button{
+        width: 160px;
+        height: 50px;
+        border-radius: 10px;
+        font-weight: 700;
+        border-color: #b6ccb2;
+        
+    }
+    a{
+        color: #658161;
+    }
+    
+}
+.piic3{
+    width: 38%;
+    height: 50%; 
+    img{
+        width: 100%;
+        height: 339px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 1.125rem;
+        line-height: 1.6;
+        font-weight: 450;
+    }
+    button{
+        width: 160px;
+        height: 50px;
+        border-radius: 10px;
+        font-weight: 700;
+        border-color: #b6ccb2;
+        
+    }
+    a{
+        color: #658161;
+    }
+   
+}
+.piic4{
+    width: 38%;
+    height: 50%;
+    
+    img{
+        width: 100%;
+        height: 339px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 1.125rem;
+        line-height: 1.6;
+        font-weight: 450;
+    }
+    button{
+        width: 160px;
+        height: 50px;
+        border-radius: 10px;
+        font-weight: 700;
+        border-color: #b6ccb2;
+        
+    }
+    a{
+        color: #658161;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
